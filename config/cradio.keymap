@@ -90,7 +90,7 @@
 
         Nav {
             bindings = <
-&trans     &mkp LCLK       &kp UP_ARROW    &mkp RCLK     &trans            &kp PRINTSCREEN  &kp PAGE_DOWN   &mmv MOVE_UP    &trans           &trans
+&trans     &mkp LCLK       &kp UP_ARROW    &mkp RCLK     &trans            &kp PRINTSCREEN  &kp PAGE_DOWN   &mmv MOVE_UP    &kp PAGE_UP      &trans
 &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &none             &none            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE
 &kp LCTRL  &kp LEFT_ALT    &trans          &kp LEFT_GUI  &kp TAB           &msc MOVE_LEFT   &msc MOVE_DOWN  &msc MOVE_UP    &msc MOVE_RIGHT  &kp ENTER
                                            &mlt 0 0      &kp LEFT_SHIFT    &kp SPACE        &mlt 3 3
