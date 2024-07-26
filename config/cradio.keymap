@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 &mt {
     // flavor = "tap-preferred";
@@ -70,28 +71,37 @@
 
         layer_default {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R      &kp T        &kp Y      &kp U     &kp I                 &kp O         &kp P
-&kp A  &kp S  &kp D  &kp F      &kp G        &kp H      &kp J     &kp K                 &kp L         &kp BACKSPACE
-&kp Z  &kp X  &kp C  &kp V      &kp B        &kp N      &kp M     &mt RIGHT_ALT DELETE  &mt LGUI TAB  &kp ENTER
-                     &kp LCTRL  &kp LSHFT    &kp SPACE  &mlt 1 1
+&kp Q  &kp W  &kp E  &kp R      &kp T        &kp Y      &kp U     &kp I              &kp O         &kp P
+&kp A  &kp S  &kp D  &kp F      &kp G        &kp H      &kp J     &kp K              &kp L         &kp BACKSPACE
+&kp Z  &kp X  &kp C  &kp V      &kp B        &kp N      &kp M     &mt RIGHT_ALT ESC  &mt LGUI TAB  &kp ENTER
+                     &kp LCTRL  &kp LSHFT    &kp SPACE  &mlt 2 1
             >;
         };
 
-        layer_symbols {
+        Symbol {
             bindings = <
-&kp GRAVE  &kp LBKT   &kp UP    &kp RBKT      &kp NON_US_BACKSLASH    &kp N7     &kp N8               &kp N9  &kp N0     &kp LEFT_GUI
-&kp TAB    &kp LEFT   &kp DOWN  &kp RIGHT     &kp SEMI                &kp N4     &kp N5               &kp N6  &kp MINUS  &kp BACKSPACE
-&kp LALT   &kp COMMA  &kp APOS  &kp PERIOD    &kp FSLH                &kp N1     &kp N2               &kp N3  &kp EQUAL  &kp ENTER
-                                &mtt LCTRL 0  &kp LSHFT               &kp SPACE  &mtt LC(LS(LALT)) 2
+&kp GRAVE         &trans             &kp SEMI   &kp SINGLE_QUOTE  &kp BACKSLASH     &kp N7     &kp N8    &kp N9  &kp N0     &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD        &kp SLASH         &kp N4     &kp N5    &kp N6  &kp EQUAL  &kp BACKSPACE
+&kp LCTRL         &trans             &none      &kp LEFT_GUI      &kp TAB           &kp N1     &kp N2    &kp N3  &kp MINUS  &kp ENTER
+                                                &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE  &mlt 2 2
             >;
         };
 
-        layer_etc {
+        Nav {
             bindings = <
-&kp ESC       &kp HOME      &sys_reset    &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN  &kp F1            &kp F2   &kp F3   &kp F4
-&kp LEFT_ALT  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_VOL_DN    &kp K_CALC       &kp F5            &kp F6   &kp F7   &kp F8
-&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp CAPS         &kp F9            &kp F10  &kp F11  &kp F12
-                                          &mtt LCTRL 0  &kp LSHFT       &kp SPACE        &kp LC(LS(LALT))
+&trans     &mkp LCLK       &kp UP_ARROW  &mkp RCLK       &trans            &kp PRINTSCREEN   &kp PAGE_DOWN     &kp PAGE_DOWN   &trans             &trans
+&trans     &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &none             &msc SCROLL_LEFT  &msc SCROLL_DOWN  &msc SCROLL_UP  &msc SCROLL_RIGHT  &kp BACKSPACE
+&kp LCTRL  &kp LEFT_ALT    &trans        &kp LEFT_GUI    &kp TAB           &trans            &none             &trans          &trans             &kp ENTER
+                                         &mlt 0 0        &kp LEFT_SHIFT    &kp SPACE         &mlt 3 3
+            >;
+        };
+
+        Settings {
+            bindings = <
+&bt BT_CLR_ALL  &kp DELETE  &bootloader       &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN   &kp F1    &kp F2   &kp F3   &kp F4
+&kp ESC         &kp LALT    &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN    &kp K_CALCULATOR  &kp F5    &kp F6   &kp F7   &kp F8
+&bt BT_PRV      &bt BT_NXT  &none             &none         &none           &kp CAPS          &kp F9    &kp F10  &kp F11  &kp F12
+                                              &mtt LCTRL 0  &kp LSHFT       &kp SPACE         &mlt 1 2
             >;
         };
     };
