@@ -1,12 +1,12 @@
-manifest:
   remotes:
-    - name: zmkfirmware-townk
-      url-base: https://github.com/Townk
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: zmkfirmware-townk
-      revision: mousemove
-      clone-depth: 1
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
   self:
     path: config
