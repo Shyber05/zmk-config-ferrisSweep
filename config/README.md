@@ -7,7 +7,8 @@
 ![image](https://github.com/user-attachments/assets/acd7b859-a436-4327-bf87-b78559e348b7)
 
 ### layer 2 Navigation layer
-![image](https://github.com/user-attachments/assets/cd6de198-e61d-412d-98be-073d2b746c8b)
+![image](https://github.com/user-attachments/assets/7d520363-1b63-4dac-8583-52a8c6d88404)
 
 ### layer 3 Settings layer
-![image](https://github.com/user-attachments/assets/e52076bd-5a07-4b15-9c01-abf4cad1dbb7)
+![image](https://github.com/user-attachments/assets/1ed799c6-afa1-41f4-b455-a5988f749e8e)
+
