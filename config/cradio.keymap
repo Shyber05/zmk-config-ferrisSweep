@@ -91,7 +91,7 @@
         Nav {
             bindings = <
 &trans     &mkp LCLK       &kp UP_ARROW    &mkp RCLK     &trans            &kp PRINTSCREEN  &kp PAGE_DOWN   &mmv MOVE_UP    &kp PAGE_UP      &trans
-&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &none             &none            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE
+&kp ESC    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &none             &none            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp BACKSPACE
 &kp LCTRL  &kp LEFT_ALT    &trans          &kp LEFT_GUI  &kp TAB           &msc MOVE_LEFT   &msc MOVE_DOWN  &msc MOVE_UP    &msc MOVE_RIGHT  &kp ENTER
                                            &mlt 0 0      &kp LEFT_SHIFT    &kp SPACE        &mlt 3 3
             >;
@@ -99,10 +99,10 @@
 
         Settings {
             bindings = <
-&bt BT_CLR  &kp DELETE  &sys_reset        &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN   &kp F1    &kp F2   &kp F3   &kp F4
-&kp ESC     &kp LALT    &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN    &kp K_CALCULATOR  &kp F5    &kp F6   &kp F7   &kp F8
-&bt BT_PRV  &bt BT_NXT  &none             &none         &none           &kp CAPS          &kp F9    &kp F10  &kp F11  &kp F12
-                                          &mtt LCTRL 0  &kp LSHFT       &kp SPACE         &mlt 1 2
+&bt BT_CLR    &kp DELETE    &sys_reset        &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN   &kp F1    &kp F2   &kp F3   &kp F4
+&kp ESC       &kp LALT      &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN    &kp K_CALCULATOR  &kp F5    &kp F6   &kp F7   &kp F8
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp CAPS          &kp F9    &kp F10  &kp F11  &kp F12
+                                              &mtt LCTRL 0  &kp LSHFT       &kp SPACE         &mlt 1 2
             >;
         };
     };
