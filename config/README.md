@@ -2,14 +2,17 @@
 note: needs to be updated
 
 ### layer 0 default layer
-![image](https://github.com/user-attachments/assets/0e44f6c9-3da4-4175-8c86-229aacb7dc41)
+![image](https://github.com/user-attachments/assets/2939300f-730d-4867-9b49-7bbc73e2d210)
 
 ### layer 1 symbol layer
-![image](https://github.com/user-attachments/assets/acd7b859-a436-4327-bf87-b78559e348b7)
+![image](https://github.com/user-attachments/assets/e92946e3-e903-45ea-8579-4fb57d2177f0)
+
 
 ### layer 2 Navigation layer
-![image](https://github.com/user-attachments/assets/7d520363-1b63-4dac-8583-52a8c6d88404)
+![image](https://github.com/user-attachments/assets/3f2a9497-603c-4ce0-bad0-0c55dcac64ee)
+
 
 ### layer 3 Settings layer
-![image](https://github.com/user-attachments/assets/1ed799c6-afa1-41f4-b455-a5988f749e8e)
+![image](https://github.com/user-attachments/assets/22699c8c-18de-4b34-a756-6ad397ba3b79)
+
 
