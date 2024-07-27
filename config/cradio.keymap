@@ -94,16 +94,25 @@
 &kp N7  &kp N8  &kp N9  &kp N0            &kp EQUAL         &kp GRAVE  &kp LBKT  &kp RBKT         &none  &kp BSLH
 &kp N4  &kp N5  &kp N6  &kp TAB           &kp MINUS         &kp ESC    &kp SEMI  &kp RIGHT_SHIFT  &none  &kp BACKSPACE
 &kp N1  &kp N2  &kp N3  &kp COMMA         &kp PERIOD        &none      &kp APOS  &kp SLASH        &none  &kp ENTER
-                        &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp SPACE  &mlt 3 3
+                        &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp SPACE  &mlt 4 4
             >;
         };
 
         Nav_hr_rh {
             bindings = <
-&trans     &none  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(F4)        &kp PAGE_UP     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK                  &kp PAGE_DOWN
-&kp ESC    &none  &kp LCTRL      &kp TAB           &kp LC(TAB)       &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT            &kp BACKSPACE
-&kp LCTRL  &none  &kp LEFT_GUI   &none             &kp LA(TAB)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &mt ALT_ERASE RIGHT_ARROW  &kp ENTER
-                                 &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE       &mlt 3 3
+&trans     &none  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(F4)        &kp PAGE_UP     &mkp LCLK       &mmv MOVE_UP           &mkp RCLK        &kp PAGE_DOWN
+&kp ESC    &none  &kp LCTRL      &kp TAB           &kp LC(TAB)       &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN         &mmv MOVE_RIGHT  &kp BACKSPACE
+&kp LCTRL  &none  &kp LEFT_GUI   &none             &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &kp RIGHT_ARROW  &kp ENTER
+                                 &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE       &mlt 4 4
+            >;
+        };
+
+        terminal {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
 
