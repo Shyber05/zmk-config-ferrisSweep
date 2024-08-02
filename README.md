@@ -10,7 +10,7 @@ The Wireless version uses [nice!nano](https://nicekeyboards.com/nice-nano/) v.2 
 
 The case was found on printables by [Johnathan Evans](https://www.printables.com/@JonathanEvans_293547)
 
-https://www.printables.com/model/250153-ferris-sweep-tenting-case/files
+[3d printable tenting case](https://www.printables.com/model/250153-ferris-sweep-tenting-case/files)
 
 ![ferris-sweep](https://github.com/user-attachments/assets/9e3c72bf-85cb-44b3-b07f-d369f5b5d385)
 
