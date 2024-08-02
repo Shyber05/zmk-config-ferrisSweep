@@ -8,7 +8,7 @@ The Wired version uses [QMK firmware](https://docs.qmk.fm/) and uses the site [V
   
 The Wireless version uses [nice!nano](https://nicekeyboards.com/nice-nano/) v.2 micro controllers with [ZMK firmware](https://zmk.dev/) and uses the site [keymap editor](https://nickcoutsos.github.io/keymap-editor/) to make changes to the key mapping.
 
-The case was found on printables. 
+The case was found on printables by [Johnathan Evans](https://www.printables.com/@JonathanEvans_293547)
 
 https://www.printables.com/model/250153-ferris-sweep-tenting-case/files
 
