@@ -75,6 +75,11 @@
             layers = <2>;
             bindings = <&to 0>;
         };
+
+        settings {
+            bindings = <&mlt 3 3>;
+            key-positions = <10 11 12 13 16 17 18 19>;
+        };
     };
 
     keymap {
@@ -100,19 +105,19 @@
 
         Nav_hr_rh {
             bindings = <
-&trans   &none  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(F4)        &kp PAGE_UP     &mkp LCLK       &mmv MOVE_UP           &mkp RCLK        &kp PAGE_DOWN
-&kp ESC  &none  &kp LCTRL      &kp TAB           &kp LC(TAB)       &none           &mmv MOVE_LEFT  &mmv MOVE_DOWN         &mmv MOVE_RIGHT  &kp BACKSPACE
-&none    &none  &kp LEFT_GUI   &none             &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &kp RIGHT_ARROW  &kp ENTER
-                               &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE       &mlt 3 3
+&trans        &none  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(F4)        &kp PAGE_UP     &mkp LCLK       &mmv MOVE_UP           &mkp RCLK        &kp PAGE_DOWN
+&kp ESC       &none  &kp LCTRL      &kp TAB           &kp LC(TAB)       &kp RC(B)       &mmv MOVE_LEFT  &mmv MOVE_DOWN         &mmv MOVE_RIGHT  &kp BACKSPACE
+&kp LEFT_ALT  &none  &kp LEFT_GUI   &none             &none             &kp LEFT_ARROW  &kp DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &kp RIGHT_ARROW  &kp ENTER
+                                    &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE       &mlt 3 3
             >;
         };
 
         Settings {
             bindings = <
-&bt BT_CLR    &kp DELETE    &sys_reset        &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN   &kp F1        &kp F2   &kp F3   &kp F4
-&kp ESC       &kp LALT      &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN    &kp K_CALCULATOR  &kp F5        &kp F6   &kp F7   &kp F8
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp CAPS          &kp F9        &kp F10  &kp F11  &kp F12
-                                              &mlt 0 0      &kp LSHFT       &kp SPACE         &kp LEFT_GUI
+&bt BT_CLR    &kp DELETE    &sys_reset        &kp INS       &kp C_VOL_UP    &kp PRINTSCREEN  &kp F1        &kp F2   &kp F3   &kp F4
+&kp ESC       &kp LALT      &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN    &none            &kp F5        &kp F6   &kp F7   &kp F8
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &kp CAPS         &kp F9        &kp F10  &kp F11  &kp F12
+                                              &mlt 0 0      &kp LSHFT       &kp SPACE        &kp LEFT_GUI
             >;
         };
     };
