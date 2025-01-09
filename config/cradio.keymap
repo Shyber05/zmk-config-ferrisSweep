@@ -113,7 +113,7 @@
             bindings = <
 &kp PRINTSCREEN  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp LA(F4)        &kp PAGE_UP     &mkp LCLK       &mmv MOVE_UP           &mkp RCLK        &kp PAGE_DOWN
 &kp ESC          &none  &kp LCTRL      &kp TAB           &kp LC(TAB)       &kp RC(B)       &mmv MOVE_LEFT  &mmv MOVE_DOWN         &mmv MOVE_RIGHT  &kp BACKSPACE
-&kp LEFT_ALT     &none  &kp LEFT_GUI   &msc SCRL_DOWN    &msc SCRL_UP      &kp LEFT_ARROW  &kp DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &kp RIGHT_ARROW  &kp ENTER
+&kp LEFT_ALT     &none  &kp LEFT_GUI   &msc SCRL_UP      &msc SCRL_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &kp RIGHT_ARROW  &kp ENTER
                                        &mlt 0 0          &kp LEFT_SHIFT    &kp SPACE       &mlt 3 3
             >;
         };
