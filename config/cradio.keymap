@@ -119,18 +119,9 @@
         Settings {
             bindings = <
 &bt BT_CLR    &kp DELETE    &sys_reset        &kp INS       &kp C_VOL_UP      &kp PRINTSCREEN  &kp F1        &kp F2   &kp F3   &kp F4
-&kp ESC       &kp LALT      &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN      &mlt 4 4         &kp F5        &kp F6   &kp F7   &kp F8
+&kp ESC       &kp LALT      &kp LEFT_CONTROL  &kp ENTER     &kp C_VOL_DN      &mlt 0 0         &kp F5        &kp F6   &kp F7   &kp F8
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4      &kp CAPS         &kp F9        &kp F10  &kp F11  &kp F12
                                               &mlt 0 0      &kp LEFT_SHIFT    &kp SPACE        &kp LEFT_GUI
-            >;
-        };
-
-        Drawing {
-            bindings = <
-&kp N7        &kp N8        &kp N9        &kp N0         &kp LC(P)         &kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp PAGE_UP
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ESC        &kp EQUAL         &trans         &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE  &kp ENTER         &kp LS(LA(D))  &trans          &kp DOWN_ARROW  &trans           &trans
-                                          &mlt 0 0       &kp LEFT_SHIFT    &kp TAB        &kp LEFT_GUI
             >;
         };
     };
